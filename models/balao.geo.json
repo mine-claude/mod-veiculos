@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": { "identifier": "geometry.veiculos.balao", "texture_width": 128, "texture_height": 128 },
+      "bones": [
+        { "name": "cesto", "pivot": [0, 0, 0], "cubes": [
+          { "origin": [-6, 0, -6], "size": [12, 8, 12], "uv": [0, 48] },
+          { "origin": [-6, 7, -6], "size": [1, 17, 1], "uv": [50, 48] },
+          { "origin": [5, 7, -6], "size": [1, 17, 1], "uv": [50, 48] },
+          { "origin": [-6, 7, 5], "size": [1, 17, 1], "uv": [50, 48] },
+          { "origin": [5, 7, 5], "size": [1, 17, 1], "uv": [50, 48] }
+        ] },
+        { "name": "chama", "parent": "cesto", "pivot": [0, 10, 0], "cubes": [{ "origin": [-1, 10, -1], "size": [2, 4, 2], "uv": [60, 48] }] },
+        { "name": "envelope", "parent": "cesto", "pivot": [0, 24, 0], "cubes": [
+          { "origin": [-12, 24, -12], "size": [24, 20, 24], "uv": [0, 0] },
+          { "origin": [-9, 44, -9], "size": [18, 3, 18], "uv": [0, 72] }
+        ] }
+      ]
+    }
+  ]
+}

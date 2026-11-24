@@ -1,0 +1,15 @@
+{
+  "name": "veiculos",
+  "version": "0.1.0",
+  "description": "Carro e balão programados pelo SDK: o mod lê o volante do piloto e decide como o veículo anda.",
+  "authors": [
+    "MineClaude"
+  ],
+  "private": true,
+  "scripts": {
+    "main": "dist/main/main.js",
+    "_sources": {
+      "main": "src/main.ts"
+    }
+  }
+}

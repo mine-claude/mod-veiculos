@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": { "identifier": "geometry.veiculos.carro", "texture_width": 256, "texture_height": 256 },
+      "bones": [
+        { "name": "chassi", "pivot": [0, 4, 0], "cubes": [
+          { "origin": [-14, 4, -22], "size": [28, 7, 44], "uv": [0, 0] },
+          { "origin": [-12, 7, -23], "size": [4, 3, 1], "uv": [180, 0] },
+          { "origin": [8, 7, -23], "size": [4, 3, 1], "uv": [180, 0] },
+          { "origin": [-12, 7, 22], "size": [4, 2, 1], "uv": [180, 8] },
+          { "origin": [8, 7, 22], "size": [4, 2, 1], "uv": [180, 8] },
+          { "origin": [-15, 3, -23], "size": [30, 2, 2], "uv": [0, 84] },
+          { "origin": [-15, 3, 21], "size": [30, 2, 2], "uv": [0, 84] }
+        ] },
+        { "name": "cabine", "parent": "chassi", "pivot": [0, 11, 0], "cubes": [
+          { "origin": [-12, 11, -6], "size": [24, 8, 20], "uv": [0, 52] },
+          { "origin": [-11, 19, -4], "size": [22, 1, 16], "uv": [100, 52] }
+        ] },
+        { "name": "roda_fe", "parent": "chassi", "pivot": [-16, 4, -14], "cubes": [{ "origin": [-18, 0, -18], "size": [4, 8, 8], "uv": [150, 0] }] },
+        { "name": "roda_fd", "parent": "chassi", "pivot": [16, 4, -14], "cubes": [{ "origin": [14, 0, -18], "size": [4, 8, 8], "uv": [150, 0] }] },
+        { "name": "roda_te", "parent": "chassi", "pivot": [-16, 4, 14], "cubes": [{ "origin": [-18, 0, 10], "size": [4, 8, 8], "uv": [150, 0] }] },
+        { "name": "roda_td", "parent": "chassi", "pivot": [16, 4, 14], "cubes": [{ "origin": [14, 0, 10], "size": [4, 8, 8], "uv": [150, 0] }] }
+      ]
+    }
+  ]
+}
